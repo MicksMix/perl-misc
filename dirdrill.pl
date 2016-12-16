@@ -79,7 +79,6 @@ print OUT "Path,Folder,MB,Date: $date\n";
 #foreach my $start (@parts) {
 my $start;
 
-#$start = "\\\\sampls01m\\d\$\\users\\";
 my @dirs = &find_subdirs($start);
 foreach my $dir (@dirs) {
 
